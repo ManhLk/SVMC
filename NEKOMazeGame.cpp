@@ -19,7 +19,7 @@ void slove(int r, int c)
 }
 int main()
 {
-	freopen("input.txt", "r", stdin);
+	//freopen("input.txt", "r", stdin);
 	int r, c;
 	cin >> n >> q;
 	for (int i = 0; i < n; i++)
