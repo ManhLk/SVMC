@@ -8,7 +8,7 @@ struct linkList
 };
 int main()
 {
-	freopen("input.txt", "r", stdin);
+	//freopen("input.txt", "r", stdin);
 	cin >> n >> x;
 	int a, b;
 	struct linkList node[100005];
