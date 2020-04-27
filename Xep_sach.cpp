@@ -10,7 +10,7 @@ int main()
 		cin >> A[++index];
 		if (A[index] == n) break;
 	}
-	for (int i = index; i >= -1; i--)
+	for (int i = index; i > -1; i--)
 	{
 		if (A[i] == n) n--;
 	}
